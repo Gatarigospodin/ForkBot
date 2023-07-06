@@ -1,0 +1,23 @@
+<!Doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form action="" method="get">
+  <input name="s" placeholder="Искать здесь..." type="search">
+  <button type="submit">Сохранить Букера</button>
+</form>
+<input type="number" step="any" id="shest1"/>
+
+<script>
+document.getElementById('shest1').oninput = function () {
+  if (this.value.length > 7) this.value = this.value.substr(0, 7); // в поле можно ввести только 7 символов
+}
+</script>
+<button type="submit">бабос</button>
+<button class="ccc" type="submit">Начать поиск вилок</button>
+</body>
+</html>
